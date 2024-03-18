@@ -1,0 +1,122 @@
+#home{
+    width: 100%;
+    height: 100vh;
+}
+.image-home{
+   width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.section-2{
+   
+    height: 80vh;
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2 .div1{
+    width: 42%;
+    line-height: 35px;
+}
+.section-2 .div2{
+    width: 42%;
+    line-height: 30px;
+}
+.div2 i{
+    font-size: 8px;
+}
+.div2 p{
+    margin: 0;
+}
+.div1 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: -4px;
+}
+
+
+/* ------section-3 -----------*/
+
+.section-3{
+    padding: 20px;
+}
+.inner{
+    padding: 20px 10%;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  
+}
+.items div img{
+    width: 230px;
+}
+.items div{
+    width: 230px;
+}
+.items div a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(0, 157, 255);
+}
+.items div, h3, p{
+    line-height: 30px;
+}
+.inner h1{
+    font-size: 30px;
+}
+.inner .paragraph{
+    font-size: 25   px;
+}
+/* innerdivs section */
+
+.innerdives{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.innerdives div{
+    width: 150px;
+    
+}
+.middle{
+    
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* section 5 */
+.section5{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* section 6 */
+
+.theitems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.theitems div{
+    width: 300px;
+}
+.theitems div img{
+    width: 100%;
+}
+.theitems div a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 157, 255);
+}
